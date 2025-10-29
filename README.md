@@ -4,11 +4,11 @@
 
 ## 🌐 Demo en Vivo
 
-**¡Prueba la aplicación aquí!** 👉 [Ver Demo]()
+**¡Prueba la aplicación aquí!** 👉 [Ver Demo](https://medicitas-iota.vercel.app/)
 
 ### 🎥 Video Demostrativo
 
-<video src="/videos/video_prueba.mp4" controls width="100%" style="max-width: 800px; border-radius: 8px; margin: 20px 0;">
+<video src="./public/videos/video_prueba.mp4" controls width="100%" style="max-width: 800px; border-radius: 8px; margin: 20px 0;">
   Tu navegador no soporta el elemento de video. Por favor, actualiza tu navegador.
 </video>
 

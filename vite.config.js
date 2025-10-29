@@ -20,7 +20,7 @@ export default defineConfig({
     proxy: {
       // Redirige cualquier ruta que empiece con '/api'
       '/api': {
-        target: 'http://localhost:3005', // La URL de tu backend
+        target: 'curso-expressjs-production-8e7b.up.railway.app', // La URL de tu backend
         changeOrigin: true, // Importante para la virtualización
         secure: false, // Puedes dejarlo en false en desarrollo local
       },
