@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@features/*": ["src/features/*"],
+      "@shared/*": ["src/shared/*"],
+      "@routes/*": ["src/routes/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
+
+
