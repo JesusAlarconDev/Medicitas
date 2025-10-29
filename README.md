@@ -8,17 +8,17 @@
 
 ### 🎥 Video Demostrativo
 
-<video src="./public/videos/video_prueba.mp4" controls width="100%" style="max-width: 800px; border-radius: 8px; margin: 20px 0;">
-  Tu navegador no soporta el elemento de video. Por favor, actualiza tu navegador.
-</video>
+![Video Demostrativo](./public/videos/video_prueba.gif)
 
 ## 🚀 Características
 
 - Programación de citas médicas
 - Gestión de pacientes
-- Historial médico
-- Interfaz intuitiva y responsiva
+- Interfaz intuitiva
 - Autenticación utilizando JWT
+- CRUD de reservas
+- Listado de reservas y bloques de tiempo para Admins
+- Obtener las citas/reservas de usuario segun su ID
 
 ## 📋 Requisitos Previos
 

@@ -16,19 +16,14 @@ export default defineConfig({
       '@routes': fileURLToPath(new URL('./src/routes', import.meta.url)),
     },
   },
-  // Configuración solo para desarrollo
   server: {
     proxy: {
+      // Redirige cualquier ruta que empiece con '/api'
       '/api': {
-        target: 'https://curso-expressjs-production-8e7b.up.railway.app',
-        changeOrigin: true,
-        secure: false,
-        rewrite: (path) => path.replace(/^\/api/, '')
+        target: 'curso-expressjs-production-8e7b.up.railway.app', // La URL de tu backend
+        changeOrigin: true, // Importante para la virtualización
+        secure: false, // Puedes dejarlo en false en desarrollo local
       },
     },
-  },
-  // Configuración para la construcción
-  define: {
-    'import.meta.env.VITE_API_URL': JSON.stringify(process.env.VITE_API_URL || 'https://curso-expressjs-production-8e7b.up.railway.app')
   },
 })
